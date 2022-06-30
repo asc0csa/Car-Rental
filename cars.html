@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Car Rental Services</title>
+        <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <section id="header">
+            <a href="#"><img src="image/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="cars.html">Shop Cars</a></li>
+                    <li><a href="login.html">Login</a></li>
+
+                    <i class="bx bx-shopping-bag" id="cart-icon"></i>
+                    <!--CART CONTENTS-->
+                    <div class = "cart"> 
+                        <h1 class="cart-title">Your Cart</h1>
+                        <i class="bx bx-x" id="close-cart"></i>
+
+                        <!--CART ITEM-->
+                       
+
+                      <!-- TOTAL -->
+                      <div class="total"> 
+                          <div class="total-title">Total</div>
+                          <div class="total-price">$0</div>
+                      </div>
+                      <button type="button" class="btn-buy">Buy Now</button>
+                        
+                    </div> 
+                </ul>
+            </div>
+        </section>
+           
+        <section id="cars-header"> 
+            <h1>Available Car Rentals</h1>
+            <p>Find availability and choose various options. 
+                Prices offered per day.
+            </p>
+        </section>
+
+        <section id="cars-shop"> 
+            <div class="shop-content">
+                <img src="image/car1.jpg" class="product-img">
+                <div class="BMW">
+                    <span>BMW</span>
+                    <h1 class="product-title">BMW M4 Black 2018</h1>
+                    <button class="add-cart">Add to Cart</button>
+                    <span class="price">$65</span>
+                </div>
+            </div>
+            <div class="shop-content">
+                <img src="image/car2.png"class="product-img">
+                <div class="BMW2">
+                    <span>BMW</span>
+                    <h1 class="product-title">BMW Blue 2020</h1>
+                    <button class="add-cart">Add to Cart</button>
+                    <span class="price">$85</span>
+                </div>
+            </div>
+            <div class="shop-content">
+                <img src="image/car3.jpg"class="product-img">
+                <div class="Acura">
+                    <span>Acura</span>
+                    <h1 class="product-title">Acura TLX White 2015</h1>
+                    <button class="add-cart">Add to Cart</button>
+                    <span class="price">$45</span>
+                </div>
+            </div>
+            <div class="shop-content">
+                <img src="image/car4.jpg"class="product-img">
+                <div class="Toyota">
+                    <span>Toyota</span>
+                    <h1 class="product-title">Toyota SUV Grey 2021</h1>
+                    <button class="add-cart">Add to Cart</button>
+                    <span class="price">$50</span>
+                </div>
+            </div>
+            
+        </section>
+        <section id = "contactUs">
+            <div class="contactInfo">
+                <h1>Have a question? Send us a message.</h1>
+                <p>Contact us on our website, or our email atlcarrentals@atlrentals.com.</p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                  <input type="submit">
+            </div>
+           
+        </section>
+        <script src="script.js"></script>
+    </body>
+    
+</html>
